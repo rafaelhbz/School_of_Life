@@ -113,47 +113,6 @@ HEIGHT_2 = 120
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 img_str  = os.path.join(os.path.dirname(__file__), 'Images')
-#images = []
-##
-#for filename in os.listdir(path):
-#    images.append(imageio.read(filename))
-
-#class Imagem_Fixa(pygame.sprite.Sprite):
-#    
-#    def __init__(self):
-#        
-#        pygame.sprite.Sprite.__init__(self)
-#        
-#        # Carregando a imagem de fundo.
-#        caixa = pygame.image.load(os.path.join(img_dir, "text.png")).convert()
-#        self.image = caixa
-#        
-#        # Diminuindo o tamanho da imagem.
-#        self.image = pygame.transform.scale(caixa, (WIDTH, 120))
-#        
-#        # Deixando transparente.
-#        self.image.set_colorkey(BLACK)
-#        
-#        # Detalhes sobre o posicionamento.
-#        self.rect = self.image.get_rect()
-#        
-#        # Centraliza embaixo da tela.
-#        self.rect.centerx = WIDTH / 2
-#        self.rect.bottom = HEIGHT
-
-#print(arquivo_json)
-
-#for i in images:
-#    imageio.read(i)
-#imageio.mimsave("D:\Training\Making_Gifs\Gif.gif",images)
-#print(images)
-#
-
-#print(images)
-
-#imageio.mimsave("D:\Training\Making_Gifs\Gif.gif", images)
-#pygame.init()
-#screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
@@ -166,25 +125,6 @@ print(img_dir)
 #    print(arquivos)
 
 all_sprites = pygame.sprite.Group()
-#for imgs in img_dir:
-#    assets[soma] = pygame.image.load(os.path.join(img_dir, imgs)).convert()
-#    soma = soma + 1
-
-#img_dir = path.join(path.dirname(__file__), 'Making_Gifs')
-
-#with open("D:\Training\Making_Gifs\Images\Archive.txt") as file:
-#    assets = {}
-#    soma = 0
-#    reading = file.read()
-#    splitado = reading.split(",")
-#    
-#    for words in splitado:
-#        assets[soma] = words
-#        soma = soma + 1
-#loading_assets = {}
-#soma_2 = 0
-#for imgs in assets.values():
-#    loading_assets[soma_2] = pygame.image.load(os.path.join(img_dir, imgs)).convert()
     
 #Abrindo o arquivo json que depois será utilizado no jogo
 
@@ -359,20 +299,21 @@ while game_loop == True:
         if arquivo_json[cenario]["imagem"] in lis_texto:
             if pygame.mouse.get_pressed() == (1,0,0):
                 cenario = arquivo_json[cenario]["caminho_unico"]
-                
-        if arquivo_json[cenario]["imagem"] in lis_random:
+    
+        if arquivo_json[cenario]["imagem"] == "Prova2.png":
             if pygame.mouse.get_pressed() == (1,0,0):
-                if arquivo_json[cenario]["imagem"] == "random_Prova.png":
+                if arquivo_json[cenario]["imagem"] == "Prova2.png":
                     if intel <= 2 and forca < 2:
                         cenario = arquivo_json[cenario]["caminho_1"]
                     elif intel > 2 and forca > 2:
                         cenario = arquivo_json[cenario]["caminho_2"]
                     elif intel > 4 and forca > 2:
                         cenario = arquivo_json[cenario]["caminho_3"]
-                else:
-                    sorteio = random.choice(caminho_3_sortido)
-                    print(sorteio)
-                    cenario = arquivo_json[cenario][sorteio]
+                        
+        if arquivo_json[cenario]["imagem"] in lis_random:
+                sorteio = random.choice(caminho_3_sortido)
+                print(sorteio)
+                cenario = arquivo_json[cenario][sorteio]
                 
         if arquivo_json[cenario]["imagem"] in lis_dois:
             if pygame.mouse.get_pressed() == (1,0,0):
@@ -451,19 +392,7 @@ while game_loop == True:
         pause.draw(screen)
     if imagem_fundo in lis_paused:
         menu_pause.draw(screen)
-#    desenho_caixa.draw(screen)
-#    três_botões.draw(screen)
-#    pause.draw(screen)
-#    pygame.draw.rect(screen, BLACK, rect_1)
-#    pygame.draw.rect(screen, BLACK, rect_2)
-#    pygame.draw.rect(screen, BLACK, rect_3)
-#    while contador < 1:
-#        soma = soma + 1
-#        print(soma)
-#        contador = contador + 1
-#    if cenario == "Inicio":
-#        print(soma)
-#    dois_botões.draw(screen)
+
     titulo = arquivo_json[cenario]["titulo"]
     text = arquivo_json[cenario]["descricao"]
     text_2 = arquivo_json[cenario]["descricao_2"]
@@ -496,12 +425,10 @@ while game_loop == True:
                 caminho_3_filtrado = caminho_3.replace("_", " ")
             else:
                 caminho_3_filtrado = caminho_3
-#        caminho_1_filtrado  = caminho_1
-#        caminho_2_filtrado = caminho_2
-#        caminho_3_filtrado = caminho_3
-        print(caminho_1_filtrado)
-        print(caminho_2_filtrado)
-        print(caminho_3_filtrado)
+
+#        print(caminho_1_filtrado)
+#        print(caminho_2_filtrado)
+#        print(caminho_3_filtrado)
         
     if arquivo_json[cenario]["imagem"] in lis_dois:
         caminho_1 = arquivo_json[cenario]["caminho_1"]
@@ -518,10 +445,8 @@ while game_loop == True:
             else:
                 caminho_2_filtrado = caminho_2.replace("_", " ")
         
-#        caminho_1_filtrado = caminho_2
-#        caminho_2_filtrado = caminho_2
-        print(caminho_1_filtrado)
-        print(caminho_2_filtrado)
+#        print(caminho_1_filtrado)
+#        print(caminho_2_filtrado)
         
     indice_texto += 1
     indice_texto_2 += 1
@@ -573,21 +498,8 @@ while game_loop == True:
     if arquivo_json[cenario] == "Inicio":
         forca = intel = caris = 0
         
-    print(forca)
-    print(intel)
-    print(caris)
-        
-    print(lista_forca)
-        
     #draw_text pro titulo
     #draw_text pra cada caminho
     pygame.display.flip()
 #    print(background_rect)
 pygame.quit()
-
-
-
-dicionario = dir(pygame)
-#print(dicionario)
-
-#print(help(pygame.image))
