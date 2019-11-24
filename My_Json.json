@@ -656,6 +656,557 @@
   "descricao_4" : "Nossa, quase me esqueci. Agora vai ter uma prova",
   "caminho_unico" : "Prova",
   "pause" : "Pause"
- }
+ },
 
+ "Prova" : {
+  "titulo" : "Comeca-se a prova",
+  "introducao" : "Tic-tac a prova comecou",
+  "imagem" : "random_Prova.png",
+  "descricao" : "Estudei bastante para essa prova, agora estou confiante de meu desempenho",
+  "descricao_2" : "",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_1" : "Nota_1",
+  "caminho_2" : "Nota_2",
+  "caminho_3" : "Nota_3",
+  "pause" : "Pause"
+},
+
+ "Nota_1": {
+  "titulo" : "Resultado da Prova",
+  "introducao" : "Pior resultado possivel da prova",
+  "imagem" : "txt_Resultado2.png",
+  "descricao" : "Infelizmente nao fui tao bem quanto esperava, mas passei de ano",
+  "descricao_2" : "Creio que se eu estivesse estudado mais o meu desempenho seria melhor",
+  "descricao_3"  : "Mas e em momentos como este que voce percebe onde errou",
+  "descricao_4" : "Agora e manter a cabeca erguida e dar o seu melhor",
+  "caminho_unico" : "Corredor_1",
+  "pause" : "Pause"
+ },
+ 
+ "Nota_2" : {
+ "titulo" : "Resultado da prova",
+ "introducao" : "Resultado mediano da prova",
+ "imagem" : "txt_Resultado.png",
+ "descricao" : "Este foi um resultado mediano",
+ "descricao_2" : "Proporcional ao tempo de estudo investido",
+ "descricao_3" : "Ainda estou com sede de vitoria e confio no meu potencial",
+ "descricao_4" : "",
+ "caminho_unico" : "Corredor_2",
+ "pause" : "Pause"
+ },
+ 
+ "Nota_3" : {
+ "titulo" : "Resultadoda Prova",
+ "introducao" : "Resultado excelente da prova",
+ "imagem" : "txt_Resultado3.png",
+ "descricao": "Este foi o melhor resultado possivel",
+ "descricao_2" : "A vida e repleta de sacrificios, troquei a diversao pelo estudo",
+ "descricao_3" : "Talvez eu devesse estudar um pouco menos e fazer mais amizades",
+ "descricao_4" : "",
+ "caminho_unico" : "Corredor_3",
+ "pause" : "Pause"
+ },
+ 
+ "Corredor_1" : {
+  "titulo" : "Corredor do colegio",
+  "introducao" : "Varios conhecidos",
+  "imagem" : "3_Corredor.png",
+  "descricao" : "Estou no corredor da escola e encontro varios conhecidos",
+  "descricao_2" : "De longe eu enxergo o Sasuke, o Tsubasa e a Erina",
+  "descricao_3" : "Com qual dessas pessoas eu deveria conversar?",
+  "descricao_4" : "",
+  "caminho_1" : "Sasuke_3",
+  "caminho_2":  "Tsubasa_3",
+  "caminho_3" : "Daichi_3",
+  "pause" : "Pause"
+ },
+ 
+ "Corredor_2" : {
+ "titulo" : "Corredor do colegio",
+ "introducao" : "Varios conhecidos",
+ "imagem" : "3_Corredor2.png",
+ "descricao" : "Estou no corredor da escola e encontro varios conhecidos",
+ "descricao_2" : "De longe eu enxergo o Light, o Rei e a Yomoda",
+ "descricao_3" : "Com qual dessas pessoas eu deveria conversar?",
+ "descricao_4" : "",
+ "caminho_1" : "Light_3",
+ "caminho_2" : "Rei_3",
+ "caminho_3" : "Yomoda_3",
+ "pause" : "Pause"
+ },
+ 
+ "Corredor_3" : {
+ "titulo" : "Corredor do colegio",
+ "introducao" : "Varios conhecidos",
+ "imagem" : "3_Corredor3.png",
+ "descricao" : "Estou no corredor da escola e encontro varios conhecidos",
+ "descricao_2" : "De longe eu enxergo o Souma, a Erina e o Takumi",
+ "descricao_3" : "Com qual dessas pessoas sera que eu devo conversar?",
+ "descricao_4" : "",
+ "caminho_1" : "Souma_3",
+ "caminho_2" : "Erina_3",
+ "caminho_3" : "Takumi_3",
+ "pause" : "Pause"
+ },
+
+ "Sasuke_3" :  {
+  "titulo" : "Estou com medo",
+  "introducao" : "Estou conversando novamente com Sasuke",
+  "imagem" : "txt_Sasuke3.png",
+  "descricao" : "Nao sei o porque de eu ter ido falar com o Sasuke",
+  "descricao_2" : "Sei la, acho que e porque ele e muito popular com as gartoas",
+  "descricao_3" : "Sasuke -Novato, o que tu acha de miar o treino e ir para uma festinha?",
+  "descricao_4" : "",
+  "caminho_unico" : "Casa_2",
+  "pause" : "Pause"
+ },
+ 
+ "Daichi_3" : {
+ "titulo" : "Daichi",
+ "introducao" : "Estou conversando novamente com o Daichi",
+ "imagem" : "txt_Daichi3.png",
+ "descricao" : "O Daichi me chamou para o treino de hoje",
+ "descricao_2" : "Fiquei sabendo que tem uma festa na mesma hora que o treino",
+ "descricao_3" : "Acho melhor eu ir para a casa e dar uma pensada",
+ "descricao_4" : "Daichi -Novato, nao se esqueca do treino de hoje!!",
+ "caminho_unico" : "Casa_2",
+ "pause" : "Pause"
+ },
+ 
+ "Tsubasa_3" : {
+ "titulo" : "Tsubasa",
+ "introducao" : "Estou novamente falando com o Tsubasa",
+ "imagem" : "txt_Tsubasa3.png",
+ "descricao" : "O Tsubasa me elogiou, disse que eu sou muito perseverante",
+ "descricao_2" : "Nao sei se um dia eu conseguirei me igualar ao Tsubasa",
+ "descricao_3" : "Mas so sei que eu darei o meu melhor durante os treinos",
+ "descricao_4" : "Tsubasa -Novato, nao se esqueca que hoje e dia de treino!",
+ "caminho_unico" : "Casa_2",
+ "pause" : "Pause"
+ },
+ 
+ "Takumi_3" : {
+ "titulo" : "Takumi",
+ "introducao" : "Estou novamente falando com o Takumi",
+ "imagem" : "txt_Takumi3.png",
+ "descricao" : "O Takumi disse que eu tenho um dom para a cozinha",
+ "descricao_2" : "Agora ele esta me ensinando um pouco da culinaria italiana",
+ "descricao_3" : "Que bom que tenho amigos como ele",
+ "descricao_4" : "Takumi -Bom giorno novato e bon appetito!!",
+ "caminho_unico" : "Casa_3",
+ "pause" : "Pause"
+ },
+ 
+ "Erina_3" :  {
+ "titulo" : "Erina",
+ "introducao" : "Estou novamente falando com a Erina",
+ "imagem" : "txt_Erina3.png",
+ "descricao" : "Nossa, o coracao nao para de palplitar",
+ "descricao_2" : "Nao consigo ouvir muito bem o que ela esta falando",
+ "descricao_3" : "E muito dificil focar nela",
+ "descricao_4" : "Erina -Vamos sair para jantar hoje?",
+ "caminho_unico" : "Casa_6",
+ "pause" : "Pause"
+ },
+ 
+ "Souma_3" : {
+ "titulo" : "Souma",
+ "introducao" : "Estou conversando com o Souma",
+ "imagem" : "txt_Souma3.png",
+ "descricao" : "O Souma me chama para ir pra Paris",
+ "descricao_2" : "",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "caminho_unico" : "Casa_3",
+ "pause" : "Pause"
+ },
+ 
+ "Rei_3" : {
+ "titulo" : "Rei",
+ "introducao" : "Estou conversando com o Rei",
+ "imagem" : "txt_Rei3.png",
+ "descricao" : "O Rei me chama para sair",
+ "descricao_2" : "",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "caminho_unico" : "Casa_6",
+ "pause" : "Pause"
+ },
+ 
+ "Light_3" : {
+ "titulo" : "Light",
+ "introducao" : "Estou novamente falando com o Light",
+ "imagem" : "txt_Light3.png",
+ "descricao" : "O Light me chamou para sair",
+ "descricao_2" : "",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "caminho_unico" : "Casa_6",
+ "pause" : "Pause"
+ },
+ 
+ "Yomoda_3" : {
+ "titulo" : "Yomoda",
+ "introducao" : "Estou falando novamente com a Yomoda",
+ "imagem" : "txt_Yomoda3.png",
+ "descricao" : "A Yomoda me chamou para sair",
+ "descricao_2" : "",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "caminho_unico" : "Casa_6",
+ "pause" : "Pause"
+ },
+ 
+ "Casa_2" : {
+  "titulo" : "Estou em casa",
+  "introducao" : "Apos convite realizado pelo Sasuke",
+  "imagem" : "2_Casa2.png",
+  "descricao" : "O Sasuke me chamou para ir ate a festa dele",
+  "descricao_2" : "Estou realmente em duvida se eu devo treinar ou me divertir",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_1" : "Treinar",
+  "caminho_2" : "Festa",
+  "pause" : "Pause"
+ },
+ 
+ "Casa_3" : {
+ "titulo" : "Estou em casa",
+ "introducao" : "Apos convite realizado pelo Takumi",
+ "imagem" : "2_Casa3.png",
+ "descricao" : "Estou em duvida se eu devo sair  com o Takumi",
+ "descricao_2" : "Ou se eu devo sair com o Souma",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "caminho_1" : "Takumi_4",
+ "caminho_2" : "Souma_4",
+ "pause" : "Pause"
+ },
+ 
+ "Casa_5" : {
+ "titulo" : "Estou em casa",
+ "introducao" : "Apos convite realizado pela Erina",
+ "imagem" : "2_Casa2.png",
+ "descricao" : "Estou realmente em duvida se eu devo sair com a Erina",
+ "descricao_2" : "Ou se eu devo sair com a Yomoda",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "caminho_1" : "Erina_4",
+ "caminho_2" : "Yomoda_4",
+ "pause" : "Pause"
+ },
+ 
+ "Casa_6" : {
+ "titulo" : "Estou em casa",
+ "introducao" : "Apos convite realizado pelo Rei",
+ "imagem" : "2_Casa2.png",
+ "descricao" : "Estou realmente em duvida se eu devo sair com o Rei",
+ "descricao_2" : "Ou se eu devo sair com o Light",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "caminho_1" : "Rei_4",
+ "caminho_2" : "Light_4",
+ "pause" : "Pause"
+ },
+ 
+ "Treinar" : {
+  "titulo" : "Japao treinando",
+  "introducao" : "Fomos treinar",
+  "imagem" : "txt_Campeao.png",
+  "descricao" : "Mesmo que a depressao bata em sua porta, vire o rosto e retorne ao seu caminho",
+  "descricao_2" : "Os fracos arranjam desculpas enquanto os fortes treinam",
+  "descricao_3" : "Fugir nao e opcao, so ganha quem luta!!",
+  "descricao_4" : "",
+  "caminho_unico" : "Transicao",
+  "pause" : "Pause"
+ },
+
+ "Transicao" : {
+  "titulo" : "a",
+  "introducao" : "bas",
+  "imagem" : "pause_Campeao.png",
+  "descricao" : "",
+  "descricao_2" : "",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_unico" :  "Japao",
+  "pause" : "Pause"
+ },
+
+ "Japao" : {
+  "titulo" : "Japao campeao do mundo",
+  "introducaco" : "Fomos campeoes mundiais",
+  "imagem" : "txt_Japao.png",
+  "descricao" : "Quem desiste nao conhece o gosto da vitoria",
+  "descricao_2" : "",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_unico" : "",
+  "pause" : "Pause"
+ },
+ 
+ "Festa" : {
+ "titulo" : "Festa do Sasuke",
+ "introducao" : "Festa pos apocaliptica",
+ "imagem" : "3_Festa.png",
+ "descricao" : "Caracoles, acho que estou no submundo. Com o patrocinio de Mc Kekel",
+ "descricao_2" : "La no fundo consigo ver as mocas dancando e rebolando ate o chao",
+ "descricao_3" : "A festa esta regada a droga e a bebidas",
+ "descricao_4" : "Sera que devo usar drogas, voltar de carro, ou ir pro treino de Futebol?",
+ "caminho_1" : "Carro",
+ "caminho_2" : "Drogas",
+ "caminho_3" : "Treinar",
+ "pause" : "Pause"
+ },
+ 
+ "Carro" : {
+ "titulo" : "Carro Bebado",
+ "introducao" : "Estou completamente louco",
+ "imagem" : "txt_Carro.png",
+ "descricao" : "Escuto businar de carros",
+ "descricao_2" : "A motorista esta completamente alucinada",
+ "descricao_3" : "Deus, por favor tende piedade de mim!!!",
+ "descricao_4" : "",
+ "caminho_unico" : "Morte3"
+ },
+ 
+ "Drogas" : {
+ "titulo" : "Usando Drogas",
+ "introducao" : "Voce decidiu usar drogas",
+ "imagem" : "txt_Drogas.png",
+ "descricao" : "Meus olhos estao vidrados, a minha boca esta seca",
+ "descricao_2" : "Estou morrendo de fome e nao paro de tremer",
+ "descricao_3" : "Me arrepedendo amargamente de ter usado droga. Pena que parece ser tarde demais",
+ "descricao_4" : "Estou deitado no chao convulsionando, acabei de vomitar sangue. Deus, o que será de mim?",
+ "caminho_unico" : "Morte2",
+ "pause" : "Pause"
+ },
+ 
+ "Rei_4" : {
+ "titulo" : "Kiriama Rei",
+ "introducao" : "Voce decidiu acompanhar o Rei",
+ "imagem" : "txt_Rei4.PNG",
+ "descricao" : "Voce deicidiu ajudar o seu amigo rei a jogar",
+ "descricao_2" : "Rei -Novato, muito obrigado por sua ajuda!!",
+ "descricao_3" : "Rei -Amanha sera o dia do grande campeonato",
+ "descricao_4" : "Rei -Espero voce la!",
+ "caminho_unico" : "Partida",
+ "pause" : "Pause"
+ },
+ 
+ "Light_4" : {
+ "titulo" : "L",
+ "introducao" : "Namorado do Light",
+ "imagem" : "txt_Light4.png",
+ "descricao" : "Ao chegar na casa do Light voce encontra uma pessoa estranha",
+ "descricao_2" : "L -Sua baranga, por que voce esta vindo ate minha casa?",
+ "descricao_3" : "L -Voce esta tentando me trair com meu namorado?",
+ "descricao_4" : "L -Voce esta morto",
+ "caminho_unico" : "Light_5",
+ "pause" : "Pause"
+ },
+ 
+ "Light_5" : {
+ "titulo" : "L",
+ "introducao" : "Estou com medo",
+ "imagem" : "txt_Light5.png",
+ "descricao" : "Que bom que era uma piada",
+ "descricao_2" : "Vou-me ao banheiro, passar uma agua no rosto",
+ "descricao_3" : "Mas que barulho estranho e esse? Pareceu uma moto-serra",
+ "descricao_4" : "AHGGGGGGGHHHHHHH!!!",
+ "caminho_unico" : "Morte1",
+ "pause" : "Pause"
+ },
+ 
+ "Takumi_4" : {
+ "titulo" : "Takumi",
+ "introducao" : "O Takumi me chamou para sair",
+ "imagem" : "txt_Takumi4.png",
+ "descricao" : "Apos longos minutos de conversa",
+ "descricao_2" : "Takumi -Novato, apos concluir o curso estou pensando em ir pra Italia",
+ "descricao_3" : "Takumi -E fundar minha tratoria la. O que acha de vir comigo?",
+ "descricao_4" : "Recebi uma proposta irrecusavel, agora meu destino esta selado",
+ "caminho_unico" : "Takumi_5",
+ "pause" : "Pause"
+ },
+ 
+ "Takumi_5" : {
+ "titulo" : "Takumi",
+ "introducao" : "Estou na Italia com Takumi",
+ "imagem" : "txt_Takumi5.png",
+ "descricao" : "Apos 3 longos anos de curso",
+ "descricao_2" : "Finalmente estamos na Italia",
+ "descricao_3" : "Conseguimos fundar nossa Tratoria",
+ "descricao_4" : "E o nome esta ficando cada vez mais forte",
+ "caminho_unico" : "Fim",
+ "pause" : "Pause"
+ },
+ 
+ "Yomoda_4" : {
+ "titulo" : "Yomoda",
+ "introducao" : "Estou saindo com Yomoda",
+ "imagem" : "txt_Yomoda4.png",
+ "descricao" : "Yomoda -Por que voce so pensa na ***** da Erina?",
+ "descricao_2" : "Yomoda -Voce nao percebe que eu gosto de voce?",
+ "descricao_3" : "Yomoda -Todo dia eu choro pensando em voce. EU TE AMO!",
+ "descricao_4" : "Como um raio nao cai duas vezes no mesmo lugar, melhor eu aceitar",
+ "caminho_unico" : "Yomoda_5",
+ "pause" : "Pause"
+ },
+ 
+ "Yomoda_5" : {
+ "titulo" : "Yomoda",
+ "introducao" : "",
+ "imagem" : "txt_Yomoda5.png",
+ "descricao" : "Depois 3 longos anos de namoro",
+ "descricao_2" : "Finalmente estamos casando",
+ "descricao_3" : "Yomoda, aceitas me como teu esposo?",
+ "descricao_4" : "Sim, eu aceito!!",
+ "caminho_unico" : "Fim",
+ "pause" : "Paused"
+ },
+ 
+ "Morte1" : {
+ "titulo" : "Voce Morreu",
+ "introducao" : "",
+ "imagem" : "pause_Morte4.png",
+ "descricao" : "",
+ "descricao_2" : "",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "pause" : "Pause"
+ },
+ 
+ "Morte2" : {
+ "titulo" : "Voce Morreu",
+ "introducao" : "",
+ "imagem" : "pause_Morte2.png",
+ "descricao" : "",
+ "descricao_2" : "",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "pause" : "Paused"
+ },
+ 
+ "Morte3" : {
+ "titulo" : "Voce Morreu",
+ "introducao" : "",
+ "imagem" : "pause_Morte3.png",
+ "descricao" : "",
+ "descricao_2" : "",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "pause" : "Paused"
+ },
+ 
+ "Erina_4" : {
+ "titulo" : "Sair com Erina",
+ "introducao" : "Escolhi sair com a Erina",
+ "imagem" : "txt_Erina4.png",
+ "descricao" : "Achei que a Erina gostava de mim. Mas infelizmente nao",
+ "descricao_2" : "Ela me chamou para mostrar o novo namorado dela",
+ "descricao_3" : "Souma -Oi novato, tudo bem? Que bom que voce veio no jantar",
+ "descricao_4" : "Erina -Eu e o Souma comecamos a namorar a pouco tempo",
+ "caminho_unico" : "Erina_5",
+ "pause" : "Pause"
+ },
+ 
+ "Erina_5" : {
+ "titulo" : "Arrepios",
+ "introducao" : "Sentimentos estranhos",
+ "imagem" : "txt_Erina5.png",
+ "descricao" : "Que estranho, acho que estou com ciumes",
+ "descricao_2" : "Subiu um calafrio na minha espinha. Estou arrepiado",
+ "descricao_3" : "Sinto que perdi uma coisa muito importante",
+ "descricao_4" : "Mas o que seria?",
+ "caminho_unico" : "Erina_6",
+ "pause" : "Pause"
+ },
+ 
+ "Erina_6" : {
+ "titulo" : "Suicidio",
+ "introducao" : "Tempo perdido",
+ "imagem" : "txt_Erina6.png",
+ "descricao" : "",
+ "descricao_2" : "",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "caminho_unico" : "Fim",
+ "pause" : "Pause"
+ },
+ 
+ "Souma_4" : {
+ "titulo" : "Souma",
+ "introducao" : "Sai com o Souma",
+ "imagem" : "txt_Souma4.png",
+ "descricao" : "O Souma me convidou para ir pra Paris apos me formar",
+ "descricao_1" : "Souma -Novato, fiquei surpreendido com seu dom culinario",
+ "descricao_2" : "Souma -O que me diz de ir morar em Paris e montar um restaurante?",
+ "descricao_3" : "Eu vou aceitar!! Vou seguir meu sonho",
+ "descricao_4" : "",
+ "caminho_unico" : "Souma_5",
+ "pause" : "Pause"
+ },
+ 
+ "Souma_5" : {
+ "titulo" : "Paris",
+ "introucao" : "Estou agora em Paris",
+ "imagem" : "txt_Souma5.png",
+ "descricao" : "Depois de longos anos no colegiom finalmente estou em Paris",
+ "descricao_2" : "Aceitei o convite de Souma e agora estou morando aqui",
+ "descricao_3" : "O nosso restaurante esta fazendo sucesso",
+ "descricao_4" : "Essa foi a melhr escolha em minha vida",
+ "caminho_unico" : "Fim",
+ "pause" : "Pause"
+ },
+ 
+ "Partida" : {
+ "titulo" : "Rei Kiriama",
+ "introducao" : "O esta jogando a grande final",
+ "imagem" : "txt_Rei5.png",
+ "descricao" : "O Rei esta jogando uma partida bem densa",
+ "descricao_2" : "O adversario dele foi o grande campeao do ano passado",
+ "descricao_3" : "Clamo a Deus que este ajude Rei em sua final",
+ "descricao_4" : "E que o Rei mantenha a calma durante o jogo",
+ "caminho_unico" : "Vitoria",
+ "pause" : "Pause"
+ },
+ 
+ "Vitoria" : {
+ "titulo" : "Vitoria de Rei",
+ "introducao" : "O Rei foi campeao Nacional",
+ "imagem" : "pause_ShogiFinal.png",
+ "descricao" : "",
+ "descricao" : "",
+ "descricao_2" : "",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "pause" : "Paused"
+ },
+ 
+ "Fim" : {
+ "titulo" : "Fim do Jogo",
+ "introducao" : "O jogo acabou",
+ "imagem" : "pause_Final.png",
+ "descricao" : "",
+ "descricao_2" : "",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "pause" : "Paused"
+ },
+ 
+ "Pause": {
+ "titulo" : "",
+ "introducao" : "",
+ "imagem" : "paused_menu_teste.png",
+ "descricao" : "",
+ "descricao_2" : "",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "restart_game" : "Inicio",
+ "pause" : "Pause"
+ }
+  
 }
+
