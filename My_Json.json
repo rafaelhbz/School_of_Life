@@ -1,0 +1,660 @@
+{
+
+ "Inicio" : {
+  "titulo" : "Nova jornada",
+  "introducao" : "Tela inicial do jogo",	
+  "descricao" : "",
+  "descricao_2" : "",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "imagem" : "capa2.png",
+  "som" : "som.wav",
+  "caminho_unico" : "Feira"
+ },
+  
+ "Feira" : {
+  "titulo" : "Feira Estudantil",
+  "introducao": "Comeco de sua jornada",
+  "descricao" : "Bem vindo ao jogo School of Life, onde as suas escolhas moldam o seu futuro",
+  "descricao_2" : "Voce entrou para o colegio Seiren e e recebido em por uma Feira Estudantil",
+  "descricao_3" : "Nesta feira voce escolhe em qual dos 3 clubes entar (Futebol, Livro, Culinaria)",
+  "descricao_4" : "Nobre jogador, qual sera a sua escolha?",
+  "imagem" : "3_feira.png",
+  "som" : "som.wav",
+  "caminho_1" : "Futebol",
+  "caminho_2" : "Biblioteca",
+  "caminho_3" : "Culinaria",
+  "pause" : "Pause"
+ },
+
+ "Culinaria" : {
+  "titulo" : "Voce entrou no Clube de cozinha",
+  "introducao" : "Um lugar para ler",
+  "imagem" : "3_culinaria.png",
+  "descricao" : "Voce agora entrou no clube de culinaria e esta fazendo mais amigos",
+  "descricao_2" : "Como de costume cada membro do grupo ira falar com voce pessoalmente",
+  "descricao_3" : "Nao se esqueca de guardar o nome de todos os membros do clube!!",
+  "descricao_4" : "",
+  "caminho_1" : "Takumi",
+  "caminho_2" : "Souma",
+  "caminho_3" : "Erina",
+  "pause" : "Pause"
+ },
+
+ "Futebol" : {
+  "titulo" : "Voce decidiiu entrar para o time de Futebol",
+  "introducao" : "Comeco do seu treino",
+  "imagem" : "txt_reuniao.png",
+  "descricao" : "Parabens, voce decidiu entrar para o time de Futebol",
+  "descricao_2" : "Como de costume cada membro ira falar com voce pessoalmente",
+  "descricao_3" : "Nao se esqueca de guardar o nome de todos os membros do clube",
+  "descricao_4" : "",
+  "caminho_unico" : "Daichi",
+  "pause" : "Pause"
+ },
+ 
+ "Biblioteca" : {
+ "titulo" : "Voce decidiu entrar para o clube de livro",
+ "introducao" : "Comece a ler",
+ "imagem" : "txt_biblioteca.png",
+ "descricao" : "Parabens voce decidiu entrar para o clube do livro",
+ "descricao_2" : "Como de costume cada membro ira falar com voce pessoalmente",
+ "descricao_3" : "Nao se esqueca de guardar o nome de todos os membros do clube",
+ "descricao_4" : "",
+ "caminho_unico" : "Yomoda",
+ "pause" : "Pause"
+ },
+
+ "Daichi" : {
+  "titulo" : "O Daichi esta falando com voce",
+  "introducao" : "O capitao do time esta conversando com voce",
+  "imagem" : "txt_Daichi.png",
+  "descricao" : "Este e o Daichi, ele e o capitao do time de Futebol",
+  "descricao_2" : "Daichi e uma excelente pessoa e sempre demonstra estar motivado",
+  "descricao_3" : "Daichi -Que bom que voce decidiu entrar para o time de Futebol",
+  "descricao_4" : "Daichi -Se houver qualquer duvida e so me chamar",
+  "caminho_unico" : "Sasuke",
+  "pause" : "Pause"
+ },
+
+ "Sasuke": {
+  "titulo" : "O Sasuke esta falando com voce",
+  "introducao" : "Uma pessoa um pouco estranha e com muitos contatos",
+  "imagem" : "txt_Sasuke.png",
+  "descricao" : "Este e o Sasuke, ele e um dos artilheiros do time de Futebol",
+  "descricao_2" : "Sasuke e uma pessoa estranha, cheio de amigos porem parece vazio",
+  "descricao_3": "Sasuke -Eu nao vou pegar mole com voce, novato",
+  "descricao_4" : "Sasuke -Esteja preparado para o pior",
+  "caminho_unico" : "Tsubasa",
+  "pause" : "Pause"
+ },
+
+ "Tsubasa": {
+  "titulo" : "O Tsubasa esta falando com voce",
+  "introducao" : "Uma pessoa muito boa e que inspira as pessoas",
+  "imagem" : "txt_Tsubasa.png",
+  "descricao" : "Este e o Tsubasa, o artilheiro definitivo do time",
+  "descricao_2" : "Tsubasa e o artilheiro do time, uma pessoa muito boa e feliz",
+  "descricao_3" : "Tsubasa -Ola nova, tudo bem com voce? ",
+  "descricao_4" : "Tsubasa -Qualquer duvida e so me chamar",
+  "caminho_unico" : "Escolhas",
+  "pause" : "Pause"
+ },
+ 
+ "Yomoda": {
+ "titulo" : "A Yomoda esta falando com voce",
+ "introducao" : "Yomoda",
+ "imagem" : "txt_Yomoda.png",
+ "descricao" : "Esta e Yomoda, uma menina muito bela e parece ser muito inteligente",
+ "descricao_2" : "Pelo que dizem a sua beleza e proporcional ao seu ar misterioso",
+ "descricao_3" : "Yomoda -Os passaros cantam, as estrelas brilhas, mas voce o que faz da vida?",
+ "descricao_4" : "Yomoda -Ler livros nao e uma tarefa facil, bem vindo ao clube",
+ "caminho_unico" : "Light",
+ "pause" : "Pause"
+ },
+ 
+ "Light" : {
+ "titulo" : "Light",
+ "introducao" : "Voce esta falando com o Light",
+ "imagem" : "txt_Light.png",
+ "descricao" : "Este daqui e o Light, o primeiro do ranking de classificacao do colegio",
+ "descricao_2" : "Ele e muito inteligente, mas tambem aparenta ser tao misterioso quanto a Yomoda",
+ "descricao_3" : "Light -Ola novato, tudo bem?",
+ "descricao_4" : "Light -Eu sou o diretor do clube do livro, qualquer duvida e so me chamar",
+ "caminho_unico" : "Rei",
+ "pause" : "Pause"
+ },
+ 
+ "Rei" : {
+ "titulo" : "Rei",
+ "introducao" : "Voce esta falando com o Rei",
+ "imagem" : "txt_Rei.png",
+ "descricao" : "Este aqui e bem famoso. Dizem que ele e um dos mais inteligentes do colegio",
+ "descricao_2" : "Porem ele esta sempre cabisbaixo e os amigos dizem que a depressao o corroe",
+ "descricao_3" : "Rei -Ola, tuudo bem?",
+ "descricao_4" : "Rei -Sou so mais um peao do clube, estarei a seu servico",
+ "caminho_unico" : "Escolhas",
+ "pause" : "Pause"
+ },
+ 
+ "Takumi" : {
+ "titulo" : "Takumi",
+ "introducao" : "Este e Takumi",
+ "imagem" : "txt_Takumi.png",
+ "descricao" : "Takumi e herdeiro da Tratoria Aldini, um restaurante italiano",
+ "descricao_2" : "A sua fama como chefe de cozinha ronda o mundo inteiro",
+ "descricao_3" : "Takumi - Bom giorno novato!",
+ "descricao_4" : "Taukimi - Se tiver alguma duvida, pode me perguntar",
+ "caminho_unico" : "Erina",
+ "puase" : "Pause"
+ },
+ 
+ "Erina" : {
+ "titulo" : "Erina",
+ "introducao" : "Erina esta falando com voce",
+ "imagem" : "txt_Erina.png",
+ "descricao" : "Acho que essa e a menina mais bonita que eu vi em toda a minha vida",
+ "descricao_2" : "Meu coração esta batendo mais rapido do que o normal",
+ "descricao_3" : "Erina -Novato, eu sou a sub-chefe deste departamento",
+ "descricao_4" : "Erina -Novato, ei novatoooo!!",
+ "caminho_unico" : "Souma",
+ "pause" : "Pause"
+ },
+ 
+ "Souma" : {
+ "titulo" : "Souma",
+ "introducao" : "Voce esta falando com Souma",
+ "imagem" : "txt_Souma.png",
+ "descricao" : "Este daqui e o diretor do clube de Culinaria",
+ "descricao_2" : "Fiquei sabendo que ele e dono de um restaurante de comida familiar",
+ "descricao_3" : "Souma -Ola novato, seja bem vindo!",
+ "descricao_4" : "Souma -Sou o chefe deste departamento, qualquer coisa e so me chamar",
+ "caminho_unico" : "Escolhas",
+ "pause" : "Pause"
+ },
+
+ "Escolhas" : {
+  "titulo" : "Agora voce pode escolher 3 caminhos",
+  "introducao" : "Voce decide",
+  "imagem" : "3_Escolhas.png",
+  "descricao" : "Agora voce escolhe se quer ir na Academia, Estudar ou Passear",
+  "descricao_2" : "",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_1" : "Academia",
+  "caminho_2" : "Estudar_final",
+  "caminho_3" : "Passeio",
+  "pause" : "Pause"
+ },
+
+ "Academia" : {
+  "titulo" : "Voce esta na Academia",
+  "introducao" : "Um lugar para puchar ferro",
+  "imagem" : "2_Forca.png",
+  "descricao" : "Voce esta na Academia e decide pegar pesos para aumentar sua forca",
+  "descricao_2" : "",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_1" : "Estudar_final",
+  "caminho_2" : "Dormir",
+  "pause" : "Pause"
+ },
+
+ "Estudar" : {
+  "titulo" : "Voce esta estudando em casa",
+  "introducao" : "Esta de noite, porem a noite e uma crianca",
+  "imagem" : "2_Inteligencia.png",
+  "descricao" : "Voce esta estudando para se tornar uma pessoa melhor",
+  "descricao_2" : "",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_1" : "Estudar_final",
+  "caminho_2" : "Dormir",
+  "pause" : "Pause"
+ },
+
+ "Passeio" : {
+  "titulo" : "Voce esta passeando",
+  "introducao" : "Caminho e andando e seguindo a cancao",
+  "imagem" : "txt_Carisma.png",
+  "descricao" : "Voce decide dar uma paseada para esclarecer os seus pensamentos",
+  "descricao_2" : "",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_unico" : "Celular",
+  "pause" : "Pause"
+ },
+ 
+ "Celular": {
+ "titulo" : "Voce recebe uma mensagem no celular",
+ "introducao" : "Durante o passeio alguem liga para o seu celular",
+ "imagem" : "random_celular_2.png",
+ "descricao" : "Voce recebeu uma ligacao",
+ "descricao_2" : "",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "caminho_1" : "Telefone_Souma",
+ "caminho_2" : "Telefone_Erina",
+ "caminho_3" : "Telefone_Rei",
+ "pause" : "Pause"
+ },
+ 
+ "Telefone_Erina": {
+ "titulo" : "Mensagem da Erina",
+ "introducao" : "A mensagem recebida era a da Erina",
+ "imagem" : "2_celular_2_Erina.png",
+ "descricao" : "Erina- Olavo novato, tudo bem?",
+ "descricao_2" : "Erina -Voce esta livre hoje a noite?",
+ "descricao_3" : "Erina -Estava pensando em sair para jantar hoje",
+ "descricao_4" : "Voce quer sair hoje a noite ou ir para sua casa descansar?",
+ "caminho_1" : "Jantar",
+ "caminho_2" : "Casa_4",
+ "pause" : "Pause"
+ },
+ 
+ "Telefone_Souma" : {
+ "titulo" : "Mensagem do Souma",
+ "introducao" : "A mensagem recebida era do Souma",
+ "imagem" : "2_celular_2_Souma.png",
+ "descricao" : "Souma -Oi novato, tudo bem?",
+ "descricao_2" : "Souma -O que voce acha de jantar em minha casa?",
+ "descricao_3" : "Voce deseja sair com o Souma ou ir para a casa descansar?",
+ "descricao_4" : "",
+ "caminho_1" : "Jantar2",
+ "caminho_2" : "Casa_4",
+ "pause" : "Pause"
+ },
+ 
+ "Telefone_Rei" : {
+ "titulo" : "Mensagem do Rei",
+ "introducao" : "A mensagem recebida era do Rei",
+ "imagem" : "2_celular_Rei.png",
+ "descricao" : "Rei -Ola novato, tudo bem?",
+ "descricao_2" : "Rei -Na proxima semana eu terei um campeonato de Shogi",
+ "descricao_3" : "Rei -Voce quer jogar comigo?",
+ "descricao_4" : "",
+ "caminho_1" : "Shogi",
+ "caminho_2" : "Casa_4",
+ "pause" : "Pause"
+ },
+ 
+ "Jantar" : {
+ "titulo" : "Jantar com Erina",
+ "introducao" : "Voce jantando com Erina",
+ "imagem" : "txt_Jantar.png",
+ "descricao" : "Droga, nao consigo parar de soar de tao nervoso que eu estou",
+ "descricao_2" : "Erina -Eu gostaria de morar em Paris no futuro...",
+ "descricao_3" : "A Erina me disse que quer morar em Paris no futuro",
+ "descricao_4" : "Curiosamente este tambem e o meu desejo",
+ "caminho_unico" : "Dormir",
+ "pause" : "Pause" 
+ },
+ 
+ "Jantar2" : {
+ "titutlo" : "Jantar com Souma",
+ "introducao" : "Voce jantando com Souma",
+ "imagem" : "txt_Jantar2.png",
+ "descricao" : "O Souma e uma pessoa muito interessante e",
+ "descricao_2" : "Souma -No futuro eu penso em morar em Paris e abri um restaurante...",
+ "descricao_3" : "O engracado e que eu tenho o mesmo desejo que o Souma",
+ "descricao_4" : "",
+ "caminho_unico" : "Dormir",
+ "pause" : "Pause"
+ },
+ 
+ "Shogi" : {
+ "titutlo" : "Jogando Shogi com Rei",
+ "introducao" : "Voce jogando Shogi com Rei",
+ "imagem" : "txt_Shogi.png",
+ "descricao" : "Rei e um aspirante a ser campeao do torneio Nacional de Tokyo, um otimo jogador",
+ "descricao_2" : "Rei -Novato, voce me surpreendeu, nao achei que voce seria tao bom",
+ "descricao_3" : "Rei -Voce me ajudou bastante, espero poder jogar com voce no futuro",
+ "descricao_4" : "",
+ "caminho_unico" : "Dormir",
+ "pause" : "Pause"
+ },
+ 
+ "Casa_4" : {
+ "titulo" : "Finalmente em Casa",
+ "introducao" : "Apos um dia de luta, mais uma noite",
+ "imagem" : "2_Casa2.png",
+ "descricao" : "Depois de um longo dia voce tem duas escolhas. Ou estuda ou dorme",
+ "descricao_2" : "",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "caminho_1" : "Estudar_final",
+ "caminho_2" : "Dormir"
+ },
+
+ "Estudar_final" : {
+  "titulo" : "Voce decide varar a madrugada em vez de dormir",
+  "introducao" : "Mesmo de noite, estudar é de lei",
+  "imagem" : "txt_Estudar.png",
+  "descricao" : "As provas estao chegando por isso achei melhor estudar",
+  "descricao_2" : "Espero seguir o caminho de uma boa uniersidade, o que demanda tempo",
+  "descricao_3" : "E muito esforco para conseguir passar no exame de admissao",
+  "descricao_4" : "",
+  "caminho_unico" : "Dormir",
+  "pause" : "Pause"
+ },
+
+ "Dormir": {
+  "titulo" : "Bons sonhos",
+  "introducao" : "Voce esta dormindo",
+  "imagem" : "txt_Dormir.png",
+  "descricao" : "Apos um longo dia de estudo e trabalho, nada melhor que um bom descanso",
+  "descricao_2" : "zZzZzZzZzZzZzZzZzZzZzZzZzZzzZz",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_unico" : "Sala_Aula1",
+  "pause" : "Pause"
+ },
+
+ "Sala_Aula1" : {
+  "titulo" : "Agora voce esta na sala de aula",
+  "introducao" : "Voce esta em aula",
+  "imagem" : "txt_Aula.png",
+  "descricao" : "Depois de uma longa soneca, comeca-se o dia estudando",
+  "descricao_2" : "Parece que hoje a aula sera bem complicada",
+  "descricao_3" : "Que bom que eu peguei um bom lugar",
+  "descricao_4" : "E consigo prestar bastante atencao no professor", 
+  "caminho_unico" : "Professora",
+  "pause" : "Pause"
+ },
+
+ "Professora" : {
+  "titulo" : "Professora falando",
+  "introducao" : "Voce esta na sala de aula",
+  "imagem" : "txt_Professora.png",
+  "descricao" : "Tivemos uma aula bem pesada hoje, isso nos deixa cansados mas os fortes nao se desmotivam",
+  "descricao_2" : "A professora explicou uma tal formula de Bhaskara",
+  "descricao_3" : "Que serve para descobrir as raizes de Equacoes do 2ndo grau",
+  "descricao_4" : "",
+  "caminho_unico" : "Refeitorio",
+  "pause" : "Pause"
+ },
+
+ "Refeitorio" : {
+  "titulo" : "Refeitorio",
+  "introducao" : "Voce esta no refeitorio",
+  "imagem" : "3_Refeitorio.png",
+  "descricao" : "Apos um longo dia de trabalho, nada mais justo que uma boa refeicao",
+  "descricao_2" : "Olha que legal, avistei algumas pessoas que eu conheci esse ano",
+  "descricao_3" : "Com quais delas sera que eu devo conversar?",
+  "descricao_4" : "",
+  "caminho_1" : "Daichi_2",
+  "caminho_2" : "Tsubasa_2",
+  "caminho_3" : "Sasuke_2",
+  "pause" : "Pause"
+ },
+ 
+ "Refeitorio_2" : {
+ "titulo" : "Refeitorio",
+ "introducao" : "Voce esta almocando no Refeitorio",
+ "imagem" : "3_Refeitorio.png",
+ "descricao" : "Apos um longo dia de trabalho, nada mais justo que uma boa refeicao",
+ "descricao_2" : "Ola que lega, avistei algumas pessoas que eu conheci esse ano",
+ "descricao_3" : "Com quais delas sera que eu devo falar?",
+ "descricao_4" : "",
+ "caminho_1" : "Rei_2",
+ "caminho_2" : "Yomoda_2",
+ "caminho_3" : "Light_2",
+ "pause" : "Pause"
+ },
+ 
+ "Refeitorio_3" : {
+ "titulo" : "Voce esta almocando no refeitorio",
+ "introducao" : "Fogo no parquinho ao quadrado",
+ "imagem" : "3_Refeitorio.png",
+ "descricao" : "Arroz feijao e com batata",
+ "caminho_1" : "Erina_2",
+ "caminho_2" : "Souma_2",
+ "caminho_3" : "Takumi_2",
+ "pause" : "Pause"
+ },
+
+ "Daichi_2" : {
+  "titulo" : "Voce decidiu conversar com o Daichi",
+  "introducao" : "Voce esta falando com o capitao",
+  "imagem" : "txt_Daichi2.png",
+  "descricao" : "Estou conversando novamente com o Daichi",
+  "descricao_2" : "Daichi -Novato, esse ano nosso time espera chegar ao Nacional",
+  "descricao_3" : "Daichi -E seremos campoes ao chegar la, logico",
+  "descricao_4" : "O time de Futebol nao esta para brincadeira",
+  "caminho_unico" : "Reflexao",
+  "pause" : "Pause"
+ },
+
+ "Tsubasa_2" : {
+  "titulo" : "Voce esta falando com o Tsubasa",
+  "introducao" : "Voce esta com o Tsubasa",
+  "imagem" : "txt_Tsubasa2.png",
+  "descricao" : "O Tsubasa e uma pessoa feliz que esta sempre sorridente",
+  "descricao_2" : "Tsubasa -Esse ano vamos ganhar o campeonato Nacional",
+  "descricao_3" : "Tsubasa -Esperamos que voce de o seu melhor neste campeonato",
+  "descricao_4" : "A conversa com o Tsubasa e muito inspiradora, nada menos que o artilheiro",
+  "caminho_unico" : "Reflexao",
+  "pause" : "Pause"
+ },
+
+ "Sasuke_2" : {
+  "titulo" : "Voce esta conversando com o Sasuke",
+  "introducao" : "Voce esta com Sasuke",
+  "imagem" : "txt_Sasuke.png",
+  "descricao" : "Estou com mal pressentimentos",
+  "descricao_2" : "Sasuke -Olha so seu filhote de cao chupando manga",
+  "descricao_3" : "Sasuke -Se voce ficar mais 2 min aqui eu juro que te bato",
+  "descricao_4" : "A conversa com o Sasuke é ruim de mais. Melhor eu sair rapido",
+  "caminho_unico" : "Reflexao",
+  "pause" : "Pause"
+ },
+ 
+ "Yomoda_2" : {
+ "titulo" : "Yomoda",
+ "introducao" : "Voce esta conversando com a Yomoda",
+ "imagem": "txt_Yomoda2.png",
+ "descricao" : "A Yomoda e realmente uma pessoa muito inteligente e igualmente confusa",
+ "descricao_2" : "Yomoda -Nossa, eu tenho dois pes",
+ "descricao_3": "Yomoda -O que e o que e, de manha tem 4 patas, de tarde 2, de noite 4?",
+ "descricao_4" : "HAHAHAHAHA, como alguem consegue ser tao diferente e linda ao mesmo tempo?",
+ "caminho_unico" : "Reflexao",
+ "pause" : "Pause"
+ },
+ 
+ "Light_2" : {
+ "titulo" : "Light",
+ "introducao" : "Voce esta conversando com o Light denovo",
+ "imagem" : "txt_Light2.png",
+ "descricao" : "O Light e realmente muito inteligente",
+ "descricao_2" : "Light -Entao e assim que se resolve a formula de Bhaskara",
+ "descricao_3" : "Nesse meio tempo o Light me ensinou o que eu nao sabia",
+ "descricao_4" : "Acertei em cheio ter falado com ele",
+ "caminho_unico" : "Reflexao",
+ "pause" : "Pause"
+ },
+ 
+ "Rei_2" : {
+ "titulo" : "Rei",
+ "introducao" : "Voce esta conversando com o Rei",
+ "imagem" : "txt_Rei2.png",
+ "descricao" : "O Rei e uma pessoa fenomenal",
+ "descricao_2" : "Mas pena que ele e emocionlmente instavel",
+ "descricao_3" : "Rei -Desculpa por eu ser meio depressivo",
+ "descricao_4" : "Mas e que eu perdi meus pais em um acidente ha alguns anos",
+ "caminho_unico" : "Reflexao",
+ "pause" : "Pause"
+ },
+ 
+ "Takumi_2" : {
+ "titulo" : "Takumi",
+ "introucao" : "Voce esta conversando com o Takumi",
+ "imagem" : "txt_Takumi2.png",
+ "descricao" : "O Takumi esta me explicando sobre os seus planos para o futuro",
+ "descricao_2" : "Takumi -Quando me formar eu quero ir para a Italia",
+ "descricao_3" : "Takumi -Fundar a minha propria Tratoria e dar meu melhor",
+ "descricao_4" : "O Takumi e realmente incrivel, que sorte que entrei nesse clube",
+ "caminho_unico" : "Reflexao",
+ "pause" : "Pause"
+ },
+ 
+ "Erina_2" : {
+ "titulo" : "Erina",
+ "introducao" : "Voce esta falando com a Erina",
+ "imagem" : "txt_Erina2.png",
+ "descricao" : "A Erina e realmente a menina mais bonita que eu ja vi!",
+ "descricao_2" : "Erina -Entao, fiquei sabendo que voce quer ir para Paris",
+ "descricao_3" : "Erina -Eu tambem tenho esse mesmo sonho, quem sabe a gente more perto",
+ "descricao_4" : "Meu Deus, estao deixando a gente sonhar!!",
+ "caminho_unico" : "Reflexao",
+ "pause" : "Pause"
+ },
+ 
+ "Souma_2" : {
+ "titulo" : "Souma",
+ "introducao" : "Voce esta falando com o Souma",
+ "imagem" : "txt_Souma2.png",
+ "descricao" : "O Souma e uma pessoa seria e bem empolgante",
+ "descricao_2" : "Souma -Novato, se voce quiser saber como e realmente cozinhar",
+ "descricao_3" : "Souma -E so me ligar que eu te levo pro meu restaurante",
+ "descrcao_4" : "Meu Deus, Souma me fez uma proposta impossivel de negar",
+ "caminho_unico" : "Reflexao",
+ "pause" : "Pause"
+ },
+
+ "Reflexao" : {
+  "titulo" : "Voce decide tomar um tempo para voce",
+  "introducao" : "Voce esta no parque pensando",
+  "imagem" : "2_Reflexao.png",
+  "descricao" : "Voce decide pensar na vida para antes tomar uma decisao. Estudar ou curtir a vida",
+  "descricao_2" : "Faz muito tempo que eu nao vou no Fliperama",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_1" : "Fliperama",
+  "caminho_2" : "Biblioteca_2",
+  "pause" : "Pause"
+ },
+
+ "Fliperama" : {
+  "titulo" : "Voce decidiu ir para o Fliperama",
+  "introducao" : "Voce esta no Fliperama",
+  "imagem" : "txt_Fliperama.png",
+  "descricao" : "Antes do Direito e da diversao nos devemos ter realizado nossos Deveres",
+  "descricao_2" : "Agora voce esta se divertindo, mas com peso na consciencia. Nem sempre brinca e a melhor escolha",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_unico" : "Casa",
+  "pause" : "Pause"
+ },
+ 
+ "Biblioteca_2" : {
+ "titulo" : "Voce decidiu estudar, parabens",
+ "introducao" : "Voce esta estudando",
+ "imagem" : "txt_Estudo.png",
+ "descricao" : "As provas estao chegando entao estudar foi a melhor escolha",
+ "descricao_2" : "Que pena que eu nao encontrei nenhum conhecido",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "caminho_unico" : "Casa",
+ "pause" : "Pause"
+ },
+
+  "Casa" : {
+  "titulo" : "Voce voltou para a casa",
+  "introducao" : "Agora voce esta em sua casa",
+  "imagem" : "3_Casa.png",
+  "descricao" : "Depois do dia vem a noite, agora voce decide se vai para a Academia, Estuda ou Passeia",
+  "descricao_2" : "Se eu desejar ir para a Academia eu ficarei forte",
+  "descricao_3" : "Se eu deejar estudar eu ficarei mais inteligente",
+  "descricao_4" : "Se eu passear irei ganhar mais carisma",
+  "caminho_1" : "Academia_2",
+  "caminho_2" : "Estudar_2",
+  "caminho_3" : "Passear_2",
+  "pause" : "Pause"
+ },
+
+ "Academia_2" : {
+  "titulo" : "Voce esta na Academia",
+  "introducao" : "Um lugar para puchar ferro",
+  "imagem" : "2_Forca.png",
+  "descricao" : "Voce esta na Academia e decide pegar pesos para aumentar sua forca",
+  "descricao_2" : "",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_1" : "Estudar_final2",
+  "caminho_2" : "Dormir_2",
+  "pause" : "Pause"
+  },
+  
+  "Passeio_2" : {
+  "titulo" : "Voce esta passeando",
+  "introducao" : "Um lugar para se acalmar",
+  "imagem" : "2_Carisma.png",
+  "descricao" : "Voce esta passeando, tomando sol e pensando na vida",
+  "descricao_2" : "",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_1" : "Estudar_final2",
+  "caminhO_2" : "Dormir_2",
+  "pause" : "Pause"
+  },
+  
+  "Estudar_2" : {
+  "titulo" : "Voce esta estudando para a prova",
+  "introducao" : "Um lugar de pura concentracao",
+  "imagem" : "2_Inteligencia.png",
+  "descricao" : "As provas estao chegando, por isso decidi estudar",
+  "descricao_2" : "",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_1" : "Estudar_final2",
+  "caminho_2" : "Dormir_2"
+  },
+
+ "Estudar_final2" : {
+  "titulo" : "Voce esta em casa estudando",
+  "introducaco" : "Quieto e calmo, estou estudando",
+  "imagem" : "txt_Estudar.png",
+  "descricao" : "Apos um longo e cansativo dia, mesmo assim nao desanimo",
+  "descricao_2" : "",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_unico" : "Dormir_2",
+  "pause" : "Pause"
+ },
+
+ "Dormir_2" : {
+  "titulo" : "Voce esta dormindo",
+  "introducao" : "Silencioso e sonolento",
+  "imagem" : "txt_Dormir.png",
+  "descricao" : "Depois de um longo dia, nada melhor que um bom descanso",
+  "descricao_2" : "zZzZzZzZzZzZzZzZzZzZzZzZzZzzZz",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_unico" : "Aula_2",
+  "pause" : "Pause"
+ },
+
+ "Aula_2" : {
+  "titulo" : "Voce esta na sala de aula",
+  "introducaco" : "Mais um dia feliz para os ambiciosos",
+  "imagem" : "txt_Aula2.png",
+  "descricao" : "Finalmente mais um dia de aula, os estudiosos sempre amam este ambiente",
+  "descricao_2" : "",
+  "descricao_3" : "",
+  "descricao_4" : "",
+  "caminho_unico" : "Professora_2",
+  "pause" : "Pause"
+ },
+
+ "Professora_2" : {
+  "titulo" : "Hoje tem prova surpresa",
+  "introducao" : "A professora falou qeu tem prova surpresa",
+  "imagem" : "txt_Professora.png",
+  "descricao" : "Estou confiante agora vou dar meu melhor na prova",
+  "descricao_2" : "A professora agora esta explicando um pouco sobre Polinomios de Taylor",
+  "descricao_3" : "E genial como voce pode aproximar polinomios para se aproximar de graficos desejados",
+  "descricao_4" : "Nossa, quase me esqueci. Agora vai ter uma prova",
+  "caminho_unico" : "Prova",
+  "pause" : "Pause"
+ }
+  {
