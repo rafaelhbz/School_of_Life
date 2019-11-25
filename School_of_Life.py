@@ -270,7 +270,13 @@ game_loop = True
 while game_loop == True:
     cenario_anterior = cenario
     
+    
     atributos = [forca, intel, caris]
+    
+    if arquivo_json[cenario]["imagem"] == "capa2.png":
+        forca = 0
+        intel = 0
+        caris = 0
     
 #    i = 0
 #    while i < 2:
@@ -303,7 +309,7 @@ while game_loop == True:
         if arquivo_json[cenario]["imagem"] == "Prova2.png":
             if pygame.mouse.get_pressed() == (1,0,0):
                 if arquivo_json[cenario]["imagem"] == "Prova2.png":
-                    if intel <= 2 and forca < 2:
+                    if intel <= 2 or forca < 2:
                         cenario = arquivo_json[cenario]["caminho_1"]
                     elif intel > 2 and forca > 2:
                         cenario = arquivo_json[cenario]["caminho_2"]
