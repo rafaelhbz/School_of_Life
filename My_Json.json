@@ -268,7 +268,7 @@
  "Telefone_Rei" : {
  "titulo" : "Mensagem do Rei",
  "introducao" : "A mensagem recebida era do Rei",
- "imagem" : "2_celular_Rei.png",
+ "imagem" : "2_celular_2_Rei.png",
  "descricao" : "Rei -Ola novato, tudo bem?",
  "descricao_2" : "Rei -Na proxima semana eu terei um campeonato de Shogi",
  "descricao_3" : "Rei -Voce quer jogar comigo?",
@@ -303,7 +303,7 @@
  },
  
  "Shogi" : {
- "titutlo" : "Jogando Shogi com Rei",
+ "titulo" : "Jogando Shogi com Rei",
  "introducao" : "Voce jogando Shogi com Rei",
  "imagem" : "txt_Shogi.png",
  "descricao" : "Rei e um aspirante a ser campeao do torneio Nacional de Tokyo, um otimo jogador",
@@ -570,6 +570,20 @@
   "caminho_2" : "Estudar_2",
   "caminho_3" : "Passear_2",
   "pause" : "Pause"
+ },
+ 
+ "Passear_2" : {
+ "titulo" : "Voce Passeando",
+ "introducao" : "Voce esta passeando",
+ "imagem" : "2_Carisma.png",
+ "descricao" : "",
+ "descricao_2" : "",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "caminho_1" : "Estudar_final2",
+ "caminho_2" : "Dormir_2",
+ "pause" : "Pause"
+ 
  },
 
  "Academia_2" : {
@@ -1098,6 +1112,31 @@
  "descricao_3" : "",
  "descricao_4" : "",
  "pause" : "Paused"
+ },
+ 
+ "Tsubsa_4" : {
+ "titulo" : "Sair com o Tsubasa",
+ "introducao" : "Escolhi sair com o Tsubasa",
+ "imagem" : "",
+ "descricao" : "",
+ "descricao_1" : "",
+ "descricao_2" : "",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "caminho_unico" : "Casa_2"
+ },
+ 
+ "Daichi_4" : {
+ "titulo" : "Sair com o Daichi",
+ "introducao" : "Escolhi sair com o Daichi",
+ "imagem" : "txt_Daichi4.png",
+ "descricao" : "",
+ "descricao_1" : "",
+ "descricao_2" : "",
+ "descricao_3" : "",
+ "descricao_4" : "",
+ "caminho_unico" : "Casa_2",
+ "pause" : "Pause"
  },
  
  "Erina_4" : {
